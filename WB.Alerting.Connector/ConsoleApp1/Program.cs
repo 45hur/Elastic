@@ -1,15 +1,12 @@
 ﻿using System;
 
-namespace WB.Debug
+namespace ConsoleApp1
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("aaa");
-            Console.ReadLine();
-
-
+            Alerting.Class1.GetText();
         }
     }
 }
